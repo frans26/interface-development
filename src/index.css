@@ -2,12 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"),
+    url("./assets/fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSansLight";
+  src: local("OpenSansLight"),
+    url("./assets/fonts/OpenSans/OpenSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSansMedium";
+  src: local("OpenSansMedium"),
+    url("./assets/fonts/OpenSans/OpenSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: local("OpenSansSemiBold"),
+    url("./assets/fonts/OpenSans/OpenSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSansBold";
+  src: local("OpenSansBold"),
+    url("./assets/fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
+}
+
 :root {
+  font-family: "OpenSans";
+
   background-color: #0e1415;
+  color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.open-sans-light {
+  font-family: "OpenSansLight";
+}
+
+.open-sans-medium {
+  font-family: "OpenSansMedium";
+}
+
+.open-sans-semibold {
+  font-family: "OpenSansSemiBold";
+}
+
+.open-sans-bold {
+  font-family: "OpenSansBold";
 }
