@@ -1,10 +1,17 @@
 import "./App.css";
 
+import "./assets/fonts/OpenSans/OpenSans-Regular.ttf";
+import "./assets/fonts/OpenSans/OpenSans-Light.ttf";
+
+import Headline from "./components/headline/Headline";
+import Latest from "./components/latest/Latest";
+
 function App() {
   return (
-    <>
-      <h1>Vite + React</h1>
-    </>
+    <main>
+      <Headline />
+      <Latest />
+    </main>
   );
 }
 
