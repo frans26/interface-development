@@ -4,16 +4,16 @@ const Headline = () => {
   return (
     <section className="pt-6 md:py-32">
       <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6 px-6 sm:px-12 lg:px-36">
-        <div className="">
-          <Image name="person" />
+        <div>
+          <Image name="person" clickable />
         </div>
 
-        <div className="">
-          <Image name="fruits" />
-          <Image name="veggies" className="mt-6" />
+        <div>
+          <Image name="fruits" clickable />
+          <Image name="veggies" className="mt-6" clickable />
         </div>
 
-        <div className="">
+        <div>
           <div className="pt-1 pb-3 border-b">
             <h3 className="open-sans-light text-[26px]">
               ANSWER YOUR BODY'S NEEDS
