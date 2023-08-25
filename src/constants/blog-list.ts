@@ -11,7 +11,7 @@ export const BLOG_LIST: Blog[] = [
   {
     id: 2,
     img: "chicken",
-    title: "Summer Lunch Menu By Mark Best",
+    title: "A Traditional Christmas Eve, Mark Best Style",
     description:
       "One of Australia's best chefs and AEG ambassador Mark Best, shares his favourite Christmas Eve menu which is sure to impress your guest",
   },
@@ -20,6 +20,6 @@ export const BLOG_LIST: Blog[] = [
     img: "chicken",
     title: "Taking Taste Further",
     description:
-      "This exdusive cookbook gives you al the know-how you need. We've designed it to make sure you get the most out of our products and the best out of your food.",
+      "This exclusive cookbook gives you al the know-how you need. We've designed it to make sure you get the most out of our products and the best out of your food.",
   },
 ];

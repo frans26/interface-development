@@ -15,8 +15,8 @@ const Headline = () => {
 
         <div>
           <div className="pt-1 pb-3 border-b">
-            <h3 className="open-sans-light text-[26px]">
-              ANSWER YOUR BODY'S NEEDS
+            <h3 className="open-sans-light text-[26px] uppercase">
+              answer your body's needs
             </h3>
           </div>
 
@@ -30,7 +30,9 @@ const Headline = () => {
             needs.
           </p>
 
-          <p className="text-strong-red mt-10 open-sans-semibold">BE MINDFUL</p>
+          <p className="text-strong-red mt-10 open-sans-semibold uppercase">
+            be mindful
+          </p>
 
           <p className="mt-4 open-sans-semibold text-lg">
             Sourcing local or organic food is a good way to start being more
