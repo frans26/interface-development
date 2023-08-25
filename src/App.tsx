@@ -9,8 +9,10 @@ import Latest from "./components/latest/Latest";
 function App() {
   return (
     <main>
-      <Headline />
-      <Latest />
+      <div className="flex flex-col items-center p-6">
+        <Headline />
+        <Latest />
+      </div>
     </main>
   );
 }

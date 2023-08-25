@@ -2,8 +2,8 @@ import Image from "../image/Image";
 
 const Headline = () => {
   return (
-    <section className="pt-6 md:py-32">
-      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6 px-6 sm:px-12 lg:px-36">
+    <section className="pt-6 md:py-32 max-w-[1200px]">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
         <div>
           <Image name="person" clickable />
         </div>
